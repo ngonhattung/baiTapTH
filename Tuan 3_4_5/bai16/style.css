@@ -1,0 +1,16 @@
+
+.box{
+    width: 100px;
+    border: 2px dashed #ffffff;
+    border-radius: 10px;
+    background: #0d90df;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10,0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.3em;
+}

@@ -1,0 +1,17 @@
+.bai12{
+    box-shadow: 0 0 10px #000000;
+}
+.bai12 h1{
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 0 -3px 3px #000000;;
+}
+.ribbon{
+    width: 130px;
+    height: 30px;
+    transform: rotate(-45deg);
+    background-color: red;
+    text-align: center;
+    position: relative;
+    left:-25px;
+    top: -130px;
+    color: #fff;
+}
