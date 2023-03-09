@@ -1,12 +1,16 @@
+body{
+    padding-left: 140px;
+    padding-right: 140px;
+}
 #menu-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #left-menu {
     display: flex;
     justify-content: space-around;
-    width: 20%;
+    width: 22%;
     align-items: center;
 }
 
@@ -17,44 +21,177 @@
 
 #content-banner {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 584px 684px;
     margin-top: 50px;
-    justify-content: space-evenly;
 }
 #toolbar{
     display: flex;
     justify-content: left;
     align-content: center;
+    margin-bottom: 20px;
+}
+#toolbar p{
+    margin-right: 15px; 
+    margin-top: 0;
+    margin-left: 0; 
+    margin-bottom: 0;
+}
+#toolbar img{
+    margin-right: 15px; 
+    margin-top: 0;
+    margin-left: 0; 
+    margin-bottom: 0;
 }
 #img-product{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 100px auto;
 
 }
 #img-product1{
     display: grid; 
+    width: 100px;
 }
-#detail-product p {
-    display: inline-block;
-    
+.price{
+    display: flex;
+    align-items: center;
+}
+.rv-product{
+    display: flex;
+    align-items: center;
+}
+.rv-sale img
+{
+    margin-right: 5px;
+}
+.rv-sale1
+{
+    display: flex;
+    align-items: center;
+}
+.rv-sale2
+{
+    display: flex;
+    align-items: center;
+}
+.button-acc
+{
+    display: flex;
+    margin-top: 20px;
+}
+.button-acc button{
+    color: green;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    font-size: 17px;
+    border: 1px solid green;
+    margin-right: 20px;
+}
+.button-acc button:hover{
+    background-color: #33CC66;
+}
+#sub-related-products
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
-#related-products {
-    width: 1440px;
+.menu-info{
+    display: flex;
+    justify-content: center;
+
+}
+.info-button button{
+    color: green;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    font-size: 17px;
+}
+.info-button button:hover{
+    background-color: #33CC66;
 }
 
-#sub-related-products p {
-    display: inline-block;
+#info-click-Benefits{
+    margin-top: 30px;
+    display: flex;
+}
+.content-Ingredients{
+    display: flex;
+    column-gap: 50px;
+}
+.content-Ingredients img{
+    border-radius:10px 10px 0 0;
+}
+.button-see button{
+    color: green;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    font-size: 17px;
+    border: 1px solid green;
+}
+.button-see{
+    display: flex;
+    justify-content: center;
+}
+.button-see button:hover{
+    background-color: #33CC66;
+}
+.content-How-to-use{
+    margin-top: 100px;
+}
+.content-rv{
+    display: flex;
+}
+.rank-rv{
+    display: flex;
+    flex-direction: column;
+}
+.rank-rv p{
     margin: 0;
 }
-
-#sub-related-products {
+.result-rv{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    text-align: left;
 }
-
-#sub-related-products-gioHang {
+.result-rv img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.result-rv h1{
+    margin: 0;
+}
+.star img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.star5{
     display: flex;
+    align-items: center;
+}
+.star4{
+    display: flex;
+    align-items: center;
+}
+.star3{
+    display: flex;
+    align-items: center;
+}
+.star2{
+    display: flex;
+    align-items: center;
+}
+.star1{
+    display: flex;
+    align-items: center;
 }

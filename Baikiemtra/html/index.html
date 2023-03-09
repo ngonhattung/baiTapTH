@@ -22,7 +22,7 @@
                 <img src="/Baikiemtra/img/Image 1 (13).png" alt="">
             </div>
             <div id="right-menu">
-                <input type="text" name="search" placeholder="Search product...">
+                <input type="text" name="search" placeholder="Search product..." style="width: 200px; height: 30px;">
                 <img src="/Baikiemtra/img/Button 1.png" alt="">
                 <img src="/Baikiemtra/img/Button 1 (1).png" alt="">
             </div>
@@ -32,13 +32,14 @@
         <div id="content-banner">
             <div id="menu-product">
                 <div id="toolbar">
-                    <div>Home</div>
+                    <p>Home</p>
                     <img src="/Baikiemtra/img/Arrow forward ios 1.png" alt="">
-                <div>Shop</div>
+                    <p>Shop</p>
                     <img src="/Baikiemtra/img/Arrow forward ios 1.png" alt="">
-                <div>Product type </div>
+                    <p>Product type</p>
+                    
                     <img src="/Baikiemtra/img/Arrow forward ios 1.png" alt="">
-                <div>Detail</div>
+                    <p>Detail</p>
                     <img src="/Baikiemtra/img/Arrow forward ios 1.png" alt="">
                 </div>
                 <div id="img-product">
@@ -55,13 +56,53 @@
             </div>
             <div id="info-product">
                 <div id="detail-product">
-                    <h2>Product Name</h2>
-                    <p>Aliquip fugiat ipsum nostrud ex et eu incididunt</p>
+                    <div class="name-product">
+                        <h1 style="font-size: 35px;font-weight: bold; margin-bottom: 0;"><b>Product Name</b></h1>
+                      <p style="margin-bottom: 0;">Aliquip fugiat ipsum nostrud ex et eu incididunt</p>
+                    </div>
                     <br>
-                    <p style="color: green; font-size: 30px;">$32</p>
-                    <p>$42</p>
+                    <div class="price">
+                        <p style="color: green; font-size: 50px;font-weight: bold;margin-top: 0;margin-bottom: 0;">$32</p>
+                    <p style="margin-top: 0;margin-bottom: 0;">$42</p>
+                    </div>
                     <br>
-                    <p>Lorem ipsum dolor sit amet conerum at labore quibuababorore quibusdamsdamabore quibusdam minima corporis <br> vero, eaque commodi distinctio dolorem! Officiis saepe libero placeat ut optio.</p>
+                    <p style="margin-bottom:16px;margin-top: 0;">Lorem ipsum dolor sit amet conerum at labore quibuababorore  quibusdam minima corporis <br> vero, eaque commodi distinctio dolorem! Officiis saepe libero placeat ut optio.</p>
+                    <div class="rv-product">
+                        <p><b>368</b> reviews</p>
+                        <p style="margin-left: 20px;margin-right: 20px;"><b>823</b> sold</p>
+                        <img src="/Baikiemtra/img/Rating 1.png" alt="">
+                        <p style="margin-left: 5px;"><b>4.5</b></p>
+                    </div>
+                    <div class="rv-sale">
+                        <div class="rv-sale1">
+                            <img src="/Baikiemtra/img/Check circle 1.png" alt="">
+                            <p>Free shipping on orders over $49USD</p>
+                        </div>
+                        <div class="rv-sale2">
+                            <img src="/Baikiemtra/img/Check circle 1.png" alt="">
+                            <p>Free + easy ruturns</p>
+                        </div >
+                    </div>
+                    <div class="cbo-size">
+                        <p><b>Choose size</b></p>
+                        <select name="size" id="" style="width: 550px;height: 40px;">
+                            <option value="">
+                                50.00 ML
+                            </option>
+                        </select>
+                    </div>
+                    <div class="quantity">
+                        <p><b>Quantity</b></p>
+                        <div class="button-quantity">
+                            <img src="/Baikiemtra/img/Button 1 (3).png" alt="">
+                            <img src="/Baikiemtra/img/Button 1 (3).png" alt="" style="margin-left: 10px; margin-right: 10px;">
+                            <img src="/Baikiemtra/img/Button 1 (4).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="button-acc">
+                        <button>Add to bag</button>
+                        <button>Checkout</button>
                 </div>
             </div>
         </div>
@@ -69,26 +110,98 @@
     <div id="related-products">
         <h2>Related -products</h2>
         <div id="sub-related-products">
-            <div><img src="/Baikiemtra/img/Image 1 (5).png" alt="">
+            <div>
+                <img src="/Baikiemtra/img/Image 1 (5).png" alt="">
                 <p><b>Product title</b> <br> La bore sint ipsum dolore mollit</p>
             </div>
-            <div><img src="/Baikiemtra/img/Image 1 (6).png" alt="">
+
+            <div>
+                <img src="/Baikiemtra/img/Image 1 (6).png" alt="">
                 <p><b>Product title</b> <br> La bore sint ipsum dolore mollit</p>
                 <br>
                 <div id="sub-related-products-gioHang">
-                    <p style="color: green; font-size: 25px;">$32</p>
-                    <p>42$</p>
-                    <img src="/Baikiemtra/img/Button 1 (2).png" alt="">
+        
                 </div>
             </div>
-            <div><img src="/Baikiemtra/img/Image 1 (7).png" alt="">
+
+            <div>
+                <img src="/Baikiemtra/img/Image 1 (7).png" alt="">
                 <p><b>Product title</b> <br> La bore sint ipsum dolore mollit</p>
             </div>
-            <div><img src="/Baikiemtra/img/Image 1 (8).png" alt="">
+
+            <div>
+                <img src="/Baikiemtra/img/Image 1 (8).png" alt="">
                 <p><b>Product title</b> <br> La bore sint ipsum dolore mollit</p>
             </div>
         </div>
-
+        <div class="menu-button">
+            <div class="menu-info">
+                <div class="info-button"><button>Benefits</button></div>
+                <div class="info-button"><button>Ingredients</button></div>
+                <div class="info-button"><button>How to use</button></div>
+                <div class="info-button"><button>Reviews</button></div>
+                <div class="info-button"><button>FAQS</button></div>
+            </div>
+        </div>
+        <div id="info-click-Benefits">
+                <div class="info-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis odit autem totam! 
+                        Iure quae ratione voluptatibus eligendi consequuntur, dicta sint, atque tempora quaerat quas tenetur! Deleniti voluptates fugiat eos.</p>
+                </div>            
+                <div class="info-img">
+                    <img src="/Baikiemtra/img/Image 1 (9).png" alt="">
+                </div>
+        </div>
+        <div id="info-click-Ingredients">
+            <h1>Ingredients</h1>
+            <div class="content-Ingredients">
+                <div class="content-Ingredients1">
+                    <img src="/Baikiemtra/img/Image 1 (10).png" alt="">
+                    <p><h2 style="margin-bottom: 0;">Hyaluronic acid</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae a, at, m sequi voluptate aperiam! Fugit necessitatibus ullam repellendus commodi?</p>
+                </div>
+                <div class="content-Ingredients2">
+                    <img src="/Baikiemtra/img/Image 1 (11).png" alt="">
+                    <p><h2 style="margin-bottom: 0;">Hyaluronic acid</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae a, at, m sequi voluptate aperiam! Fugit necessitatibus ullam repellendus commodi?</p>
+                </div>
+                <div class="content-Ingredients3">
+                    <img src="/Baikiemtra/img/Image 1 (12).png" alt="">
+                    <p><h2 style="margin-bottom: 0;">Hyaluronic acid</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae a, at, m sequi voluptate aperiam! Fugit necessitatibus ullam repellendus commodi?</p>
+                </div>
+            </div>
+            <div class="button-see">
+                <button>See full list</button>
+            </div>
+            <div id="info-click-How-to-use">
+                <div class="content-How-to-use">
+                    <h1>How to use</h1>
+                    <img src="/Baikiemtra/img/Image 1 (14).png" alt="">
+                </div>
+            </div>
+            <div id="info-click-Reviews"> 
+                <h1>Reviews</h1>
+                <div class="content-rv">
+                    <div class="rank-rv">
+                        <div class="result-rv">
+                            <h1 >4.5</h1>
+                            <img src="/Baikiemtra/img/Rating 1.png" alt="">
+                            <p style="display: inline; margin: 0;">368 Reviews</p>
+                        </div>
+                        <div class="star">
+                            <div class="star5"> 5 <img src="/Baikiemtra/img/Rating 1 (2).png" alt=""> <img src="/Baikiemtra/img/Slider 1.png" alt=""> 60% </div>
+                            <div class="star4"> 4 <img src="/Baikiemtra/img/Rating 1 (2).png" alt=""> <img src="/Baikiemtra/img/Slider 1.png" alt=""> 25%</div>
+                            <div class="star3"> 3 <img src="/Baikiemtra/img/Rating 1 (2).png" alt=""> <img src="/Baikiemtra/img/Slider 1.png" alt=""> 10%</div>
+                            <div class="star2"> 2 <img src="/Baikiemtra/img/Rating 1 (2).png" alt=""> <img src="/Baikiemtra/img/Slider 1.png" alt=""> 5%</div>
+                            <div class="star1"> 1 <img src="/Baikiemtra/img/Rating 1 (2).png" alt=""> <img src="/Baikiemtra/img/Slider 1.png" alt=""> 0%</div>
+                        </div>
+                    </div>
+                    <div class="comment-rv">
+                        <div class="content-comment">
+                            <img src="/Baikiemtra/img/Image 1 (12).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
