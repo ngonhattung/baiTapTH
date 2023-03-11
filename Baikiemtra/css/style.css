@@ -96,7 +96,8 @@ body{
 #sub-related-products
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,276px);
+    column-gap: 30px;
 }
 
 .menu-info{
@@ -120,7 +121,12 @@ body{
 
 #info-click-Benefits{
     margin-top: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.info-text {
+    display: grid;
+    align-items: center;
 }
 .content-Ingredients{
     display: flex;
@@ -147,11 +153,23 @@ body{
 .button-see button:hover{
     background-color: #33CC66;
 }
+.sub-related-products1
+{
+    display: grid;
+}
+.add-cart 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .content-How-to-use{
     margin-top: 100px;
 }
 .content-rv{
     display: flex;
+    justify-content: space-between;
 }
 .rank-rv{
     display: flex;
@@ -178,20 +196,195 @@ body{
 .star5{
     display: flex;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .star4{
     display: flex;
     align-items: center;
+    
 }
 .star3{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 .star2{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 .star1{
     display: flex;
     align-items: center;
+    margin-top: 10px;
+}
+.content-comment
+{
+    display: grid;
+    grid-template-rows: 3;
+}
+.comment1{
+    display: flex;
+    align-items: center;
+}
+.comment2{
+    display: flex;
+    align-items: center;
+}
+.comment3{
+    display: flex;
+    align-items: center;
+}
+.next-pg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-pg button{
+    border-radius: 50%;
+    padding:6px 8px;
+    border: 1px solid green;
+    color: green;
+    background: none;
+}
+.faqs-content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.faqs1-left
+{
+    width: 560px;
+    height: 125px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqs2-left{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 560px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faqs2-img
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+}
+.faqs3-left{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 560px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.faqs1-right
+{
+    width: 560px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faqs2-right
+{
+    width: 560px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faqs3-right
+{
+    width: 560px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faqs4-right
+{
+    width: 560px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(37, 37, 37);
+}
+.content-footer
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.ft-contact{
+    display: flex;
+    justify-content: space-around;
+}
+.language{
+    display: flex;
+    width: 130px;
+    height: 35px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    color: grey;
+}
+.ft-contact p
+{
+    color: grey;
+}
+.ft-address p{
+    color: grey;
+}
+.input-email
+{
+    display: grid;
+    grid-template-columns: 300px 130px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.img-link
+{
+    margin-top: 20px;
+}
+.img-link img
+{
+    margin-right: 5px;
+}
+.email{
+    display: flex;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid grey;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sub
+{
+    display: flex;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
