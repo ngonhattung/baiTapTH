@@ -93,6 +93,23 @@ body{
 .button-acc button:hover{
     background-color: #33CC66;
 }
+.button-quantity{
+    display: flex;
+    align-items: center;
+    
+}
+.button-qty
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 44px;
+    background-color: #DCDCDC;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
 #sub-related-products
 {
     display: grid;
@@ -103,6 +120,7 @@ body{
 .menu-info{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 
 }
 .info-button button{
@@ -267,35 +285,43 @@ body{
     justify-content: space-between;
 }
 .faqs2-left{
-    display: grid;
-    grid-template-columns: auto auto;
     width: 560px;
     height: 90px;
     border: 1px solid gray;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.faqs2-img
+.button2
 {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: start;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .faqs3-left{
-    display: grid;
-    grid-template-columns: auto auto;
+
     width: 560px;
     height: 90px;
     border: 1px solid gray;
     border-radius: 10px;
 }
+.button3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 .faqs1-right
 {
+    display: flex;
     width: 560px;
     height: 60px;
     border: 1px solid gray;
     border-radius: 10px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 .faqs2-right
 {
@@ -305,6 +331,12 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.button5-right
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .faqs3-right
 {
     width: 560px;
@@ -313,8 +345,17 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.button6-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .faqs4-right
 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 560px;
     height: 60px;
     border: 1px solid gray;
@@ -322,19 +363,21 @@ body{
     margin-bottom: 20px;
 }
 .footer{
+    width: 1440px;
+    height: 435px;
+    margin-left: -140px;
+    margin-right: -140px;
     margin-top: 20px;
     background-color: rgb(37, 37, 37);
-}
-.content-footer
-{
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: space-around;
-}
-.ft-contact{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
+}
+
+.ft-contact{
+    display: flex;
+    justify-content: space-between;
 }
 .language{
     display: flex;
@@ -387,4 +430,7 @@ body{
     font-size: 20px;
     align-items: center;
     justify-content: center;
+}
+.copy-right{
+    text-align: center;
 }
