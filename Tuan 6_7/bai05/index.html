@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var soLuong ,x;
+        var list = new Array(100);
+        soLuong = prompt("Nhập số lượng người cho phòng ban: ",10);
+        for (let i = 0; i < soLuong; i++) {
+            list[i] = prompt("Nhập vào họ tên: ","");
+            
+        }
+        list.sort();
+        document.write("<H3> Danh sách phòng ban sau khi đã sắp xếp </H3>");
+        for(x in list)
+        {
+            document.write(list[x] + "<BR>");3
+        }
+    </script>
+</body>
+</html>

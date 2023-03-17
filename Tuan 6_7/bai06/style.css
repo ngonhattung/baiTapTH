@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 20px auto;
+    width: 200px;
+}
+.screen{
+    background-color: rgba(117, 122, 126, 0.225);
+    height: 70px;
+    width: 328px;
+    position: relative;
+
+}
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.item{
+    height: 50px;
+    width: 80px;
+    margin: 1px;
+    border: none;
+    font-size: 20px;
+}
+.item:hover{
+    background-color: rgba(157, 147, 147, 0.682);
+    cursor: pointer;
+}
+.item22{
+    background-color: rgba(6, 46, 166, 0.796);
+    color: aliceblue;
+}
+.screen .input{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    font-size: 60px;
+}
