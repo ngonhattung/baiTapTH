@@ -40,3 +40,12 @@
     top: 0px;
     font-size: 60px;
 }
+#resultInput{
+    width: 326px;
+    height: 70px;
+    background-color: rgba(166, 158, 158, 0.29);
+    border: none;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 700;
+}

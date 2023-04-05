@@ -5,38 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Tuan 6_7/bai06/style.css">
+    <script src="/Tuan 6_7/bai06/bai06.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="screen">
-            <span class="input">0</span>
+        <div id="screen">
+            <input type="text" id="resultInput">
         </div>
         <div class="keyboard">
-            <button class="item item1">%</button>
-            <button class="item item1">CE</button>
-            <button class="item item2">C</button>
-            <button class="item item2"><=</button>
-            <button class="item item3">1/X</button>
-            <button class="item item4">X^2</button>
-            <button class="item item5">Căn 2</button>
-            <button class="item item6">/</button>
-            <button class="item item7">7</button>
-            <button class="item item8">8</button>
-            <button class="item item9">9</button>
-            <button class="item item10">%</button>
-            <button class="item item11">4</button>
-            <button class="item item12">5</button>
-            <button class="item item13">6</button>
-            <button class="item item14">-</button>
-            <button class="item item15">1</button>
-            <button class="item item16">2</button>
-            <button class="item item17">3</button>
-            <button class="item item18">+</button>
-            <button class="item item19">+/-</button>
-            <button class="item item20">0</button>
-            <button class="item item21">.</button>
-            <button class="item item22">=</button>
+            <button class="item item1" onclick="buttonHandler(this)" >%</button>
+            <button class="item item1" onclick="buttonHandler(this)" >CE</button>
+            <button class="item item2" onclick="buttonHandler(this)" >C</button>
+            <button class="item item2" onclick="buttonHandler(this)" ><=</button>
+            <button class="item item3" onclick="buttonHandler(this)" >1/X</button>
+            <button class="item item4" onclick="buttonHandler(this)" >X^2</button>
+            <button class="item item5" onclick="buttonHandler(this)" >Căn 2</button>
+            <button class="item item6" onclick="buttonHandler(this)" >/</button>
+            <button class="item item7" onclick="buttonHandler(this)" >7</button>
+            <button class="item item8" onclick="buttonHandler(this)">8</button>
+            <button class="item item9"  onclick="buttonHandler(this)" >9</button>
+            <button class="item item10" onclick="buttonHandler(this)" >%</button>
+            <button class="item item11" onclick="buttonHandler(this)" >4</button>
+            <button class="item item12" onclick="buttonHandler(this)" >5</button>
+            <button class="item item13" onclick="buttonHandler(this)" >6</button>
+            <button class="item item14" onclick="buttonHandler(this)" >-</button>
+            <button class="item item15" onclick="buttonHandler(this)" >1</button>
+            <button class="item item16" onclick="buttonHandler(this)" >2</button>
+            <button class="item item17" onclick="buttonHandler(this)" >3</button>
+            <button class="item item18" onclick="buttonHandler(this)">+</button>
+            <button class="item item19" onclick="buttonHandler(this)">+/-</button>
+            <button class="item item20" onclick="buttonHandler(this)">0</button>
+            <button class="item item21" onclick="buttonHandler(this)">.</button>
+            <button class="item item22" onclick="buttonHandler(this)">=</button>
         </div>
     </div>
 </body>

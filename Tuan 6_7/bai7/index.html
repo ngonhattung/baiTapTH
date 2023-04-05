@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bai7/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="ngayThang">
+        <button onclick="dayMonthYear()">Xem ngày tháng năm</button>
+    </div>
+    <div id="clock">
+        <div id="timer">
+            <div>
+                <span id="hour"></span>
+                <span>Giờ</span>
+            </div>
+            <div style="margin-left: 10px; margin-right: 10px;">
+                <span id="minutes"></span>
+                <span>Phút</span>
+            </div>
+            <div>
+                <span id="second"></span>
+                <span>giây</span>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function realTimeClock() {
+            var date = new Date();
+            var s = document.getElementById('second');
+            var m = document.getElementById('minutes');
+            var h = document.getElementById('hour');
+
+            var cur_hour = date.getHours();
+            var cur_minutes = date.getMinutes();
+            var cur_second = date.getSeconds();
+
+            h.innerHTML = cur_hour;
+            m.innerHTML = cur_minutes;
+            s.innerHTML = cur_second;
+        }
+        var count_time = setInterval(realTimeClock, 500)
+    </script>
+</body>
+<script src="/bai7/main.js"></script>
+
+</html>
