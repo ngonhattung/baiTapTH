@@ -1,0 +1,18 @@
+.container h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+}
+.btn-from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-from button{
+    margin-left: 10px;
+    margin-top: 20px;
+}
