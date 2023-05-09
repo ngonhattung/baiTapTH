@@ -10,8 +10,10 @@
         table {
             border: 1px solid;
             border-collapse: collapse;
-            width: 1000px;
-            margin: 200px auto;
+            width: 800px;
+            justify-content: center;
+            margin: 0px auto;
+           
         }
         
         table th,
@@ -24,30 +26,40 @@
             margin-bottom: 20px;
             width: 500px;
         }
+        .container{
+            display: flex;
+            justify-content: center;
+       
+        }
     </style>
 </head>
 
 <body>
-    <div class="list-input">
-        <label for="">ID:</label>
-        <input type="text" id="idInput">
-
-        <label for="">Name:</label>
-        <input type="text" id="titleInput">
-
-        <label for="">Job:</label>
-        <input type="text" id="bodyInput">
+    <div class="container">
+        <div class="list-input">
+            <label for="">ID:</label>
+            <input type="text" id="idInput">
+    
+            <label for="">Name:</label>
+            <input type="text" id="titleInput">
+    
+            <label for="">Job:</label>
+            <input type="text" id="bodyInput">
+    
+            <label for="">Link image:</label>
+            <input type="text" id="inputIMG">
+            <button id="btnCreate">Create User</button>
+        </div>
+        <table id="render">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Job</th>
+                </tr>
+            </thead>
+        </table>
     </div>
-    <button id="btnCreate">Create User</button>
-    <table id="render">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Job</th>
-            </tr>
-        </thead>
-    </table>
     <script src="/js/app.js"></script>
 </body>
 
