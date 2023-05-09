@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container1">
+            <div class="header">
+                <img src="../img/logo.PNG" alt="">
+                <div class="header-title">
+                    <h1>ĐOÀN THANH NIÊN THÀNH PHỐ HỒ CHÍ MINH</h1>
+                    <H3>ĐOÀN THANH NIÊN TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP THÀNH PHỐ HỒ CHÍ MINH</H3>
+                </div>
+
+            </div>
+            <div class="main-menu">
+                <ul class="menu">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Đoàn thể</a></li>
+                    <li><a href="">Sự kiện</a></li>
+                    <li>
+                        <a href="">HOẠT ĐỘNG</a>
+                        <ul>
+                            <li><button id="openModal"><a href="#">ĐĂNG KÝ</a></button></li>
+                            <li><a href="">THAM GIA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <img src="../img/ngayhoithanhnien.JPG" alt="">
+                <div class="content-txt">
+                    <h1>TIN NỔI BẬT</h1>
+                    <ul>
+                        <li>Mùa hè xanh</li>
+                        <li>Thanh niên tình nguyện</li>
+                        <li>Tấm lòng vàng</li>
+                        <li>Hiến máu nhân đạo</li>
+                        <li>Bảo vệ môi trường sạch</li>
+                        <li>Thi đua lập thành tích chào mừng 26/3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-staff">
+                <div class="list-title">
+                    <H1>DANH SACH ĐĂNG KÝ HOẠT ĐỘNG MÙA HÈ XANH</H1>
+                </div>
+                <table id="table-render">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã SV</th>
+                            <th>Tên SV</th>
+                            <th>Ngày tham gia</th>
+                            <th>Email</th>
+                            <th>Số điện thoại</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>THÔNG TIN ĐĂNG KÝ </h1>
+                            <button type="button" class="close" data-dismiss='modal'>x</button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form action="" id="form">
+                                <div class="row mb-2">
+                                    <div class="col-3">
+                                        <label for="masv">Mã sinh viên</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <input type="text" name="masv" id="maSV" class="form-control" placeholder="Mã sinh viên">
+                                </div>
+                                <div class="row text-danger">
+                                    <div id="error-masv">*</div>
+                                </div>
+    
+    
+    
+                                <div class="row mb-2">
+                                    <div class="col-3">
+                                        <label for="tensv">Họ tên</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <input type="text" name="tensv" id="tenSV" class="form-control" placeholder="Họ tên">
+                                </div>
+                                <div class="row text-danger">
+                                    <div id="error-tenSV">*</div>
+                                </div>
+    
+    
+                                <div class="row mb-2">
+                                    <div class="col-4">
+                                        <label for="date">Ngày tham gia</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <input type="date" name="date" id="ngayThamGia" class="form-control">
+                                </div>
+                                <div class="row text-danger">
+                                    <div id="error-ngayThamGia">*</div>
+                                </div>
+    
+                                <div class="row mb-2">
+                                    <div class="col-3">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <input type="text" name="email" id="emailSV" class="form-control" placeholder="Địa chỉ email">
+                                </div>
+                                <div class="row text-danger">
+                                    <div id="error-emailSV">*</div>
+                                </div>
+    
+    
+                                <div class="row mb-2">
+                                    <div class="col-3">
+                                        <label for="sdt">Số điện thoại</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <input type="text" name="sdt" id="sdtSV" class="form-control" placeholder="Số điện thoại">
+                                </div>
+                                <div class="row text-danger">
+                                    <div id="error-sdtSV">*</div>
+                                </div>
+
+                                <button type="submit" id="btnLuu">Lưu</button>
+                                <div id="mess-finish"></div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>

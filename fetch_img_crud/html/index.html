@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+            width: 1000px;
+            margin: 200px auto;
+        }
+        
+        table th,
+        td {
+            border: 1px solid;
+        }
+        
+        .list-input input {
+            display: block;
+            margin-bottom: 20px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list-input">
+        <label for="">ID:</label>
+        <input type="text" id="idInput">
+
+        <label for="">Name:</label>
+        <input type="text" id="titleInput">
+
+        <label for="">Job:</label>
+        <input type="text" id="bodyInput">
+    </div>
+    <button id="btnCreate">Create User</button>
+    <table id="render">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
